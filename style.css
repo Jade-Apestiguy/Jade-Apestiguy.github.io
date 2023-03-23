@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+}
+.margins {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.paragraphe {
+    background-color: black;
+    color: white;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15vw;
+}
