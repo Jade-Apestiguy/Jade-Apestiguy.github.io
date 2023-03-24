@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+.margins {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.margins1 {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.titre {
+    text-align: center;
+}
+.sous-titre {
+    color: white;
+    text-align: left;
+    margin-top: 8vw;
+    font-size: 30px;
+}
+.paragraphe {
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    padding: 5vw;
+    background-color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    white-space: pre-line;
+    text-align: center;
+    font-weight: bold;
+}
+.image {
+    text-align: center;
+}
+.conteneur {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+button {
+    padding: 20px 20px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
