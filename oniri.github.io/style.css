@@ -33,15 +33,17 @@ body {
     text-align: center;
 }
 .conteneur {
-    text-align: center;
+    text-align: right;
     margin-bottom: 5vw;
+    margin-left: 1.5vw;
+    float: right;
 }
 button {
-    padding: 20px 20px;
-    font-size: 50px;
+    padding: 5px 5px;
+    font-size: 15px;
     color: white;
     background-color: black;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 2px solid white;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
