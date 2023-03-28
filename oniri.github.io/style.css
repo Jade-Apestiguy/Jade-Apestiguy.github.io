@@ -18,19 +18,11 @@ body {
     margin-top: 8vw;
     font-size: 30px;
 }
-.paragraphe {
+.paragraphe1 {
     margin-top: 4vw;
     margin-bottom: 10vw;
     padding: 5vw;
     background-color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
-    white-space: pre-line;
-    text-align: center;
-    font-weight: bold;
-}
-.image {
-    text-align: center;
 }
 .conteneur {
     text-align: right;
@@ -47,4 +39,10 @@ button {
     border: 2px solid white;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
