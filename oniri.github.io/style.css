@@ -83,6 +83,11 @@ button {
     display: block;
     margin-left: 9vw;
 }
+.gifc {
+    width: auto;
+    position: fixed;
+    transform: rotate(90deg);
+}
 .info {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
