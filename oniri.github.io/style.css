@@ -7,6 +7,11 @@ body {
     margin-right: 5vw;
     margin-bottom: 5vw;
 }
+.margins1 {
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
 .sous-titre {
     color: white;
     text-align: center;
@@ -26,7 +31,7 @@ body {
     text-align: center;
     margin-left: 4vw;
     margin-bottom: 1vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -34,7 +39,16 @@ body {
     color: white;
     text-align: center;
     font-size: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sous-titreR {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7vw;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
 }
 .textes {
     color: white;
@@ -44,12 +58,13 @@ body {
     margin-left: 18vw;
     margin-right: 18vw;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .info {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 .paragraphe1 {
     margin-top: 4vw;
@@ -59,7 +74,13 @@ body {
 .conteneur {
     text-align: right;
     margin-bottom: 5vw;
-    float: right;
+    margin-left: 75vw;
+    position: fixed;
+}
+.conteneur1 {
+    text-align: right;
+    margin-top: -20vw;
+    margin-right: 25vw;
 }
 button {
     padding: 5px 5px;
@@ -69,11 +90,17 @@ button {
     border-radius: 5px;
     border: 2px solid white;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 1vw;
 }
 .menu {
-    width: 50%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu1 {
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -84,12 +111,121 @@ button {
     margin-left: 9vw;
 }
 .gifc {
-    width: auto;
+    width: 20%;
     position: fixed;
-    transform: rotate(90deg);
+    margin-left: -10vw;
+    margin-top: -10vw;
 }
 .info {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
+.paragrapheR {
+    margin-top: -5vw;
+    margin-left: 2vw;
+    padding: 5vw;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.block {
+    padding: 20px 1px;
+    background-color: white;
+    color: white;
+    margin-right: 40vw;
+}
+.galerie {
+    padding: 20px 1px;
+    color: white;
+    position: absolute;
+    position: fixed;
+    margin-left: 2vw;
+    margin-top: -4vw;
+    z-index: 1;
+}
+.image {
+    width: 5vw;
+}
+.mois {
+    margin-left: 46vw;
+    margin-top: -32.3vw;
+    z-index: 1;
+    width: 40%;
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 65px 25px;
+  width: 90.7%;
+  background: #736bb1;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#000000;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12%;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #000000;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #ffffff;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #736bb1;
+  color: white !important
+}
+.days li .active2 {
+    padding: 5px;
+    background: #c84264;
+    color: white !important
+  }
