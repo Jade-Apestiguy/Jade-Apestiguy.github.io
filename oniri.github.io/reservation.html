@@ -8,7 +8,7 @@
 
         <link rel="stylesheet" href="style.css">
         <title>
-            ONIRI / Réservation
+            ONIRI&thinsp;/&thinsp;Réservation
         </title>
     </head>  
     <body>
@@ -17,11 +17,28 @@
                 <img class="image" src="images/logoN.png">
             </a>
         </div>
-        <div class="sidenav">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn"
+            style="margin-left:10vw" onclick="closeNav()">&times;</a>
+            <a href="index.html">Accueil</a>
             <a href="menu.html">Menu</a>
             <a href="contact.html">Contact</a>
             <a href="reservation.html">Réservation</a>
-        </div>
+          </div>
+          
+          <h2>Animated Sidenav Example</h2>
+          <p>Click on the element below to open the side navigation menu.</p>
+          <span style="font-size:25px;cursor:pointer;color:white;margin-left:4.7vw;position:fixed" onclick="openNav()">&#9776;</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
 
         <div class="margins1">
 
@@ -103,6 +120,9 @@
                     <li>30</li>
                     <li>31</li>
                 </ul>
+            </div>
+            <div class="demande">
+                Pour toutes demandes spéciales, veuillez communiquer avec <a href="contact.html">nous</a>.
             </div>
         </div>
     </body>
