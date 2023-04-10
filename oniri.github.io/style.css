@@ -68,14 +68,40 @@ body {
 }
 .info {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 2vw;
 }
 .infoC {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 10vw;
+}
+.titre {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4vw;
+  margin-bottom: 1vw;
+  text-align: center;
+  font-size: 20px;
+}
+.sous-titreM {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0vw;
+  margin-bottom: 0.2vw;
+  text-align: center;
+  font-size: 15px;
+}
+.infoM {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0vw;
+  margin-bottom: 0.7vw;
+  margin-left: 29.5vw;
+  margin-right: 40vw;
+  text-align: left;
+  font-size: 10px;
 }
 .paragraphe1 {
     margin-top: 4vw;
