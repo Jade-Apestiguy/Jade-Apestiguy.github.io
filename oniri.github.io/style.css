@@ -197,21 +197,14 @@ button {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.galerie {
-    padding: 20px 1px;
-    color: white;
-    position: absolute;
-    position: fixed;
-    margin-left: 2.8vw;
-    z-index: 1;
-    margin-top: -1vw;
-}
 .gallery {
   width: 5%;
   height: auto;
 }
 .image {
     width: 5vw;
+    margin-left: -2vw;
+    margin-top: -5vw;
 }
 .mois {
     margin-left: 46vw;
@@ -347,13 +340,13 @@ body {font-family: Verdana, sans-serif;}
   padding-top: 60px;
 }
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 40px;
   text-decoration: none;
   font-size: 15px;
   color: #080808;
   display: block;
   transition: 0.3s;
-  text-align: center;
+  text-align: left;
 }
 .sidenav a:hover {
   color: #c6c6c6;
@@ -361,6 +354,7 @@ body {font-family: Verdana, sans-serif;}
 .sidenav .closebtn {
   position: absolute;
   top: 0;
+  left: 70px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
