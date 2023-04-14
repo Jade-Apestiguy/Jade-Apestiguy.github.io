@@ -12,6 +12,9 @@ body {
     margin-left: 5vw;
     margin-right: 5vw;
 }
+.blank {
+    margin-bottom: 15vw;
+}
 .sous-titre {
     color: white;
     text-align: center;
@@ -30,20 +33,21 @@ body {
 }
 .horaire{
     text-align: center;
-    margin-left: 37vw;
+    margin-left: 45vw;
     margin-top: 1vw;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: white;
 }
 .blocHoraire{
-  margin-top: -12.5vw;
+  margin-top: -31vw;
 }
 .sous-titre1 {
     margin-top: 7vw;
-    margin-bottom: 10vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -60,10 +64,10 @@ body {
     color: white;
     text-align: left;
     margin-top: 2vw;
-    margin-left: 28vw;
-    margin-right: 28vw;
+    margin-left: 5vw;
+    margin-right: 55vw;
     margin-bottom: 10vw;
-    font-size: 18px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .info {
@@ -73,9 +77,11 @@ body {
     margin-top: 2vw;
 }
 .infoC {
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10vw;
+    margin-top: -8vw;
+    margin-left: -15vw;
+    margin-bottom: 10vw;
 }
 .titre {
   color: white;
@@ -127,11 +133,11 @@ body {
     padding: 5vw;
 }
 .paragrapheC {
-  margin-bottom: 2vw;
   margin-left: 20vw;
+  margin-bottom: 8px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 .conteneur {
     text-align: right;
