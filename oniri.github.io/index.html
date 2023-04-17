@@ -13,11 +13,14 @@
     </head>  
     <body> 
 
+        
+
         <div class="margins">
 
             <div class="paragraphe">
-                <img class="gif" src="images/Précomp-min.gif">
+                <img class="gif" src="images/Précomp-min.gif"> 
             </div>
+
             <div class="sous-titre1">
                 ONIRI&thinsp;/&thinsp;Restaurant immersif
             </div>
@@ -65,6 +68,29 @@
                 Dimanche..................................................13h à 23h
             </div>
 
+            <div class="logo">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="reservation.html">Réservation</a>
+                </div>
+                
+                <h2>.</h2>
+                <p>.</p>
+                <span style="font-size:25px;cursor:pointer;color:white;margin-left:4.7vw;" onclick="openNav()"><img class="image" src="images/logoN.png"></span>
+                
+                <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "200px";
+                }
+                
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+            </div>
+            
             <div class="blank">
                 
             </div>
