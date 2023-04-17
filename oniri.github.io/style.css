@@ -1,37 +1,24 @@
 body {
     background-color: black;
 }
-.margins {
+.margins { /*marges*/
     margin-top: 1vw;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 5vw;
 }
-.margins1 {
+.margins1 { /*marges*/
     margin-top: 7vw;
     margin-left: 5vw;
     margin-right: 5vw;
 }
-.blank {
+.blank {  /*espace en bas de index*/
     margin-bottom: 33vw;
 }
-.sous-titre {
-    color: white;
-    text-align: center;
-    margin-top: 8vw;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.blocHoraire{ /*blochoraire*/
+  margin-top: -8vw;
 }
-.sous-titre-horaire {
-    color: white;
-    text-align: center;
-    margin-left: 37vw;
-    margin-top: -15vw;
-    margin-bottom: 3vw;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.horaire{
+.horaire{ /* jour indivduel*/
     text-align: center;
     margin-left: 40vw;
     margin-top: 1vw;
@@ -39,60 +26,42 @@ body {
     font-size: 18px;
     color: white;
 }
-.blocHoraire{
-  margin-top: -31vw;
-}
-.sous-titre1 {
+.sous-titre1 { /*oniri / restaurant immersif*/
     margin-top: 7vw;
     margin-bottom: 2vw;
     margin-left: 10vw;
-    color: white;
+    color: rgb(248, 219, 235);
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.sous-titreR {
-    color: white;
-    text-align: left;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10vw;
-    margin-top: -5.8vw;
-    margin-bottom: 4vw;
-}
-.textes {
+.textes { /*à propos*/
     color: white;
     text-align: left;
     margin-top: 2vw;
     margin-left: 10vw;
     margin-right: 50vw;
     margin-bottom: 10vw;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 22px;
+    line-height: 24px;
 }
-.info {
-    color: white;
+.infoC { /*coordonnées*/
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-top: 2vw;
+    margin-top: -39.5vw;
+    margin-left: 30.5vw;
+    margin-bottom: 14vw;
+    text-align: left;
 }
-.infoC {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -8vw;
-    margin-left: -10vw;
-    margin-bottom: 10vw;
-}
-.titre {
-  color: white;
+.paragrapheC {  /*coordonnées*/
+  margin-left: 20vw;
+  margin-bottom: 8px;
+  color: rgb(255, 241, 212);
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 5vw;
-  margin-bottom: 1.5vw;
-  text-align: center;
-  font-size: 25px;
+  font-size: 18px;
+  cursor: pointer;
 }
-.sous-titreM {
+/*.sous-titreM {        // menu tapé < la main
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 1vw;
@@ -129,74 +98,42 @@ body {
 .icone {
   float: left;
   width: 2%;
-}
-.paragraphe1 {
-    margin-top: 3vw;
-    margin-bottom: 10vw;
-    padding: 5vw;
-}
-.paragrapheM {
+}*/
+.paragrapheM {    /*bandeau*/
   margin-top: -42vw;
   width: 100%;
   transform: rotate(-5deg);
 }
-.paragrapheC {
-  margin-left: 20vw;
-  margin-bottom: 8px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
-.conteneur {
-    text-align: right;
-    margin-bottom: 5vw;
-    margin-left: 75vw;
-    position: fixed;
-}
-.conteneur1 {
-    text-align: right;
-    margin-top: -20vw;
-    margin-right: 25vw;
-}
-button {
-    padding: 5px 5px;
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    border: black;
-}
-.menu {
-    width: 80%;
+.menu { /*plâts*/
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
     position: relative;
 }
-.menu1 {
-    width: 80%;
+.menu1 {  /*boissons*/
+    width: 70%;
     display: block;
     margin-top: 1vw;
-    margin-bottom: -10vw;
+    margin-bottom: 5vw;
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
     position: relative;
 }
-.gif {
+.gif {  /*principal*/
     width: 80%;
     display: block;
     margin-left: 9vw;
     margin-top: 3vw;
 }
-.gifc {
-    width: 49.5%;
-    position: fixed;
-    margin-top: -10vw;
+.gif1 { /*secondaires*/
+  width: 100%;
+  display: block;
+  margin-top: -3.5vw;
 }
-.cote {
+.cote { /*titre page*/
   font-size: 90px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -207,13 +144,17 @@ button {
   z-index: 10;
   position: relative;
 }
-.paragrapheR {
+.paragrapheR { /*infos client*/
     margin-top: 5vw;
     margin-left: 5vw;
     padding: 5vw;
     font-family:Arial, Helvetica, sans-serif;
 }
-.block {
+.paragraphe1 { /**/
+  margin-top: 5vw;
+  width: 100%;
+}
+.block { /*infos client*/
     padding: 10px 1px;
     background-color: white;
     color: rgb(196, 196, 196);
@@ -222,22 +163,18 @@ button {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.gallery {
-  width: 5%;
-  height: auto;
-}
-.image {
+.image { /*?*/
     width: 5vw;
     margin-left: -2vw;
     margin-top: -5vw;
 }
-.logo {
+.logo { /*navigation page index*/
   margin-left:-5vw;
-  margin-top: -27vw;
+  margin-top: -37vw;
 }
-.mois {
+.mois { /*conteneur*/
     margin-left: 46vw;
-    margin-top: -31.5vw;
+    margin-top: -30vw;
     z-index: 1;
     width: 40%;
 }
@@ -405,11 +342,31 @@ div.gallery img {
   margin-left: 19vw;
   cursor: pointer;
 }
-.demande {
+.demande { /*lien demande contact*/
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-left: 10vw;
   margin-top: 3vw;
   margin-bottom: 10vw;
+}
+.ligne_verticale { /*ligne*/
+  width: 5vw;
+  border-left: 1px solid gray;
+  height: 35vw;
+  margin-left: 44vw;
+  margin-top: -3.5vw;
+}
+.bande { /*bande*/
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 7vw;
+}
+.i { /*icone*/
+  width: 1%;
+  height: auto;
+  margin-left: 18vw;
+  position: absolute;
 }
