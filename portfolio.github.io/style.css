@@ -6,7 +6,7 @@ body {
     margin-right: 0,5vw;
 }
 picture {
-    max-width: 2000px;
+    max-width: 100%;
     height: auto;
     display: block;
     align-content: center;
