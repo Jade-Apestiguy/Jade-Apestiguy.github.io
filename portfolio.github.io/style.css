@@ -1,6 +1,5 @@
 body {
     background-color: rgb(255, 244, 231);
-    width: 1920px;
 }
 .margins {
     margin-left: 0,5vw;
@@ -12,3 +11,17 @@ picture {
     display: block;
     align-content: center;
 }
+/*<div class="picture">
+                <img src="portfolio_Jade_Apestiguy_page-0001.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0002.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0003.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0004.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0005.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0006.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0007.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0008.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0009.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0010.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0011.jpg">
+                <img src="portfolio_Jade_Apestiguy_page-0012.jpg">
+            </div>
