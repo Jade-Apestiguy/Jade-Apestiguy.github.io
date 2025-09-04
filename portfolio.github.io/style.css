@@ -2,19 +2,14 @@ body {
     background-color: rgb(255, 244, 231);
 }
 .margins {
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
 }
 
 
 
 picture {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
-
-
-<picture>
-                <pdf src="portfolio_Jade_Apestiguy.pdf">
-            </picture>
