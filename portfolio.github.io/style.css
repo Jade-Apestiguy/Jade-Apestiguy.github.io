@@ -9,10 +9,10 @@ body {
 
 
 picture {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
 
-@media (min-width: 100%){
+@media (max-width: 100%){
 }
