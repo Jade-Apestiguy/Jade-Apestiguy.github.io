@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 244, 231);
+    max-width: 1920px;
 }
 .margins {
     margin-left: 0,5vw;
@@ -10,10 +11,4 @@ picture {
     height: auto;
     display: block;
     align-content: center;
-}
-@media only screen and (max-width:800px) {
-    .main {
-      width: 80%;
-      padding: 0;
-    }
 }
