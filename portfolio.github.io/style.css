@@ -6,13 +6,9 @@ body {
     margin-right: 1vw;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
-object {
+
+picture {
     max-width: 100%;
     height: auto;
     display: block;
