@@ -13,3 +13,6 @@ picture {
     height: auto;
     display: block;
 }
+
+@media (min-width: 100%){
+}
