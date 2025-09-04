@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 244, 231);
+}
+.margins {
+    margin-left: 0vw;
+    margin-right: 0vw;
+}
+
+picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
